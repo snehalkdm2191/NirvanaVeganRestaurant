@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -14,7 +15,7 @@ function NavBar() {
 
   return (
     <nav className={nav ? "nav active" : "nav"}>
-      <a href="#" className="logo">
+      <a href="/" className="logo">
         Logo
       </a>
       <input type="checkbox" className="menu-btn" id="menu-btn" />
@@ -23,16 +24,44 @@ function NavBar() {
       </label>
       <ul className="menu">
         <li>
-          <a href="#">About</a>
+          <NavLink
+            exact
+            to="/"
+            className="nav-link"
+            activeClassName="active-link"
+          >
+            Dishes
+          </NavLink>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <NavLink
+            exact
+            to="/"
+            className="nav-link"
+            activeClassName="active-link"
+          >
+            Desserts
+          </NavLink>
         </li>
         <li>
-          <a href="#">Tech</a>
+          <NavLink
+            exact
+            to="/"
+            className="nav-link"
+            activeClassName="active-link"
+          >
+            Drinks
+          </NavLink>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <NavLink
+            exact
+            to="/"
+            className="nav-link"
+            activeClassName="active-link"
+          >
+            Contact
+          </NavLink>
         </li>
       </ul>
     </nav>
