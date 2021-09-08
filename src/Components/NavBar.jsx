@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from '../Assets/img/logo.png'
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -16,7 +17,7 @@ function NavBar() {
   return (
     <nav className={nav ? "nav active" : "nav"}>
       <a href="/" className="logo">
-        Logo
+        <img src={logo} alt="logo"/>
       </a>
       <input type="checkbox" className="menu-btn" id="menu-btn" />
       <label className="menu-icon" for="menu-btn">
@@ -56,7 +57,7 @@ function NavBar() {
         <li>
           <NavLink
             exact
-            to="/"
+            to="/contact"
             className="nav-link"
             activeClassName="active-link"
           >
