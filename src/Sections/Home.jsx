@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <div id="Home-section">
-        <Header />
+        <Header section="Home" />
       </div>
         <HomeCategories/>
     </div>

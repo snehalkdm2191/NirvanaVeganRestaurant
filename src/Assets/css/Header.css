@@ -23,15 +23,7 @@ body {
     border: none;
   }
   .logo img {
-    width: 90px;
-  }
-  #Home-section {
-    width: 100%;
-    max-height: 400px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-image: url('../img/HomePage-bg.mp4'); */
+    width: 42%;
   }
   nav {
     display: flex;

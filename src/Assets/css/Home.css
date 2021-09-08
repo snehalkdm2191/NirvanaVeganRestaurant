@@ -1,3 +1,11 @@
+#Home-section {
+    width: 100%;
+    max-height: 400px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url('../img/HomePage-bg.mp4'); */
+  }
 .Home-categories{
     margin-top: 25%;
     width: 100%;

@@ -1,0 +1,55 @@
+#Contact-section {
+  width: 100%;
+  max-height: 400px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url('../img/HomePage-bg.mp4'); */
+}
+.contact-info{
+    margin-top: 10%;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 1% 0px 1%;
+    position: relative;
+}
+.contact-timings{
+  text-align: center;
+}
+.contact-timings h2{
+  font-weight: 600;
+  color:#335c67;
+}
+.contact-form h2{
+  font-weight: 600;
+  color:#036939;
+}
+.contact-Address{
+  margin-top: 4%;
+}
+.contact-Address h2{
+  color:#c9184a;
+  font-weight: 600;
+}
+.btn-book{
+    width:30%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+@media (max-width: 1100px) {
+  #Contact-section {
+    margin-top: 8%;
+  }
+  .contact-info{
+    margin-top: 0%;
+  }
+  .contact-form{
+    margin-top: 8%;
+  }
+  .contact-form h2{
+    text-align: center;
+  }
+}
