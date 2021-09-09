@@ -1,0 +1,363 @@
+[
+  {
+    "type": "Dish",
+    "name": "Vegetable Paella",
+    "description": "Wow – This dish is amazing! The smoky rice and colorful veggies make this recipe pop both in flavor and aesthetically. Paella takes its name from the wide, shallow traditional pan used to cook the dish on an open fire. Paella means frying pan in Valencian, Valencia's regional language.",
+    "pic": "Vegetable-Paella.jpg",
+    "ingridients": [
+      "Olive Oil",
+      "Salt",
+      "Onion",
+      "Garlic",
+      "Green Pepper",
+      "Red Pepper",
+      "Grams Peas",
+      "Tomato",
+      "Rice"
+    ],
+    "Calories": ["234", "43"],
+    "Fat": [{ "TotalFat": ["4.8g", "7%"], "SaturatedFat": ["0.7g", "4%"] }],
+    "Cholesterol": ["0mg", "0%"],
+    "Sodium": ["6mg", "0%"],
+    "Potassium": ["322mg", "9%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["42g", "14%"],
+        "Fiber": ["3.3g", "13%"],
+        "Sugars": ["5.4g", ""]
+      }
+    ],
+    "Protein": ["5.5g", ""],
+    "Vitamin": ["Vitamin A", "Vitamin C", "Calcium", "Iron"]
+  },
+  {
+    "type": "Dish",
+    "name": "Spiced Vegan Ventil Soup",
+    "description": "This deliciously easy vegan red lentil chili is sure to impress! nutritious, well-balanced soup counts as a meal if you enjoy a generous portion. Lentils are rich in protein, fiber, iron and folate",
+    "pic": "vegan-lentil-soup.jpg",
+    "ingridients": [
+      "Olive Oil",
+      "Salt",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Turmeric",
+      "Cumin Seeds",
+      "Tomato",
+      "Curry Leafs",
+      "1 Cup Red Lentils"
+    ],
+    "Calories": ["222", "38"],
+    "Fat": [{ "TotalFat": ["4.2g", "6%"], "SaturatedFat": ["0.6g", "3%"] }],
+    "Cholesterol": ["0mg", "0%"],
+    "Sodium": ["431mg", "18%"],
+    "Potassium": ["713mg", "20%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["34g", "11%"],
+        "Fiber": ["13g", "52%"],
+        "Sugars": ["4.5g", ""]
+      }
+    ],
+    "Protein": ["5.5g", ""],
+    "Vitamin": ["Vitamin A", "Vitamin C", "Calcium", "Iron"]
+  },
+  {
+    "type": "Dish",
+    "name": "Crispy Falafel",
+    "description": "Ahh, falafel. Simple, healthy, affordable, and suitable for vegetarians or vegans. Falafel is high in nutrients, low in calories, and an excellent source of fibre and protein, which can help curb your appetite and support healthy blood sugar - not to mention, they're absolutely delicious! ",
+    "pic": "falafel.jpg",
+    "ingridients": [
+      "Olive Oil",
+      "Salt",
+      "Onion",
+      "Garlic",
+      "Chickpea",
+      "Parsley",
+      "Cumin Seeds",
+      "Flour",
+      "Coriander",
+      "Black Pepper",
+      "Shallot"
+    ],
+    "Calories": ["83", "63"],
+    "Fat": [{ "TotalFat": ["7.3g", "11%"], "SaturatedFat": ["0.5g", "2%"] }],
+    "Cholesterol": ["0mg", "0%"],
+    "Sodium": ["30mg", "1%"],
+    "Potassium": ["39mg", "1%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["3.7g", "1%"],
+        "Fiber": ["0.9g", "4%"],
+        "Sugars": ["0.6g", ""]
+      }
+    ],
+    "Protein": ["1.1g", ""],
+    "Vitamin": ["Vitamin A", "Vitamin C", "Calcium", "Iron"]
+  },
+  {
+    "type": "Dish",
+    "name": "Lettuce Wraps with Crispy Tofu and Peanut Sauce",
+    "description": "Crisp lettuce wraps make for a light and delicious dinner that comes together quickly. These vegetarian lettuce wraps are piled with spicy-sweet Jerk grilled tofu and peanuts salsa.",
+    "pic": "wrap.jpg",
+    "ingridients": [
+      "Sesame Oil",
+      "Green Onion",
+      "Salt",
+      "Cremini Mushrooms",
+      "Garlic",
+      "Ginger",
+      "Chestnuts",
+      "Red Pepper",
+      "Romaine",
+      "Coriander",
+      "Black Pepper",
+      "Tofu"
+    ],
+    "Calories": ["106", "47"],
+    "Fat": [{ "TotalFat": ["5.3g", "8%"], "SaturatedFat": ["0.8g", "4%"] }],
+    "Cholesterol": ["0.2mg", "0%"],
+    "Sodium": ["346mg", "14%"],
+    "Potassium": ["380mg", "11%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["8.9g", "3%"],
+        "Fiber": ["1.9g", "8%"],
+        "Sugars": ["3.7g", ""]
+      }
+    ],
+    "Protein": ["7.9g", ""],
+    "Vitamin": ["Vitamin A", "Vitamin C", "Calcium", "Iron"]
+  },
+  {
+    "type": "Dessert",
+    "name": "Cheese Cake",
+    "description": "Crisp lettuce wraps make for a light and delicious dinner that comes together quickly. These vegetarian lettuce wraps are piled with spicy-sweet Jerk grilled tofu and peanuts salsa.",
+    "pic": "Cheese-cake.jpg",
+    "ingridients": [
+      "Maple Syrup",
+      "Cornstarch",
+      "Salt",
+      "Coconut oil",
+      "Oats",
+      "Vanilla",
+      "Lemon zest",
+      "Coconut Cream",
+      "Almonds",
+      "Cashew",
+      "Vegan Cream Cheese",
+      "Coconut sugar"
+    ],
+    "Calories": ["527", "309"],
+    "Fat": [{ "TotalFat": ["34g", "8%"], "SaturatedFat": ["18g", "90%"] }],
+    "Cholesterol": ["0mg", "0%"],
+    "Sodium": ["15mg", "6%"],
+    "Potassium": ["300mg", "9%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["50g", "17%"],
+        "Fiber": ["2.8g", "11%"],
+        "Sugars": ["36g", ""]
+      }
+    ],
+    "Protein": ["8.3g", ""],
+    "Vitamin": ["Vitamin A", "Vitamin C", "Calcium", "Iron"]
+  },
+  {
+    "type": "Dessert",
+    "name": "Chocolate Peanut Butter Cake",
+    "description": "This Vegan Peanut Butter Pie is amazingly delicious! A perfectly rich and creamy texture with heavenly peanut butter flavor. It's also keto, gluten-free, oil-free, low-fat, dairy-free and low-carb. So... about this Vegan Peanut Butter Pie...I would be lying to you if I told you that I didn't eat this entire pie by myself.",
+    "pic": "peanut-cake.jpg",
+    "ingridients": [
+      "Flour",
+      "Backing Powder",
+      "Salt",
+      "Sugar",
+      "Peanut Butter",
+      "Coconut milk",
+      "Vegan Cream Cheese",
+      "Coconut Cream",
+      "Dry Roasted Peanuts",
+      "Coconut sugar"
+    ],
+    "Calories": ["460", "223"],
+    "Fat": [{ "TotalFat": ["18g", "38%"], "SaturatedFat": ["4g", "47%"] }],
+    "Cholesterol": ["54mg", "18%"],
+    "Sodium": ["380mg", "6%"],
+    "Potassium": ["300mg", "9%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["75g", "17%"],
+        "Fiber": ["3g", "11%"],
+        "Sugars": ["43g", ""]
+      }
+    ],
+    "Protein": ["5g", ""],
+    "Vitamin": ["Vitamin A", "Vitamin C", "Calcium", "Iron"]
+  },
+  {
+    "type": "Dessert",
+    "name": "Red Velvet Brownie",
+    "description": "Are you a gooey and chewy kind of brownie lover, or more of a cake-like brownie person? I like FUDGY. And kind of gooey. And moist! That is these. And the red velvetty-ness makes them perfect for the holiday season!! ",
+    "pic": "red-velvet.jpg",
+    "ingridients": [
+      "Gluten free oats",
+      "Backing Powder",
+      "Salt",
+      "Cocoa",
+      "Vanilla extrat",
+      "Natural butter flavour",
+      "Coocked beans"
+    ],
+    "Calories": ["368", "210"],
+    "Fat": [{ "TotalFat": ["23g", "35%"], "SaturatedFat": ["14g", "70%"] }],
+    "Cholesterol": ["93mg", "31%"],
+    "Sodium": ["318mg", "13%"],
+    "Potassium": ["92mg", "3%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["36g", "12%"],
+        "Fiber": ["0.3g", "1%"],
+        "Sugars": ["25g", ""]
+      }
+    ],
+    "Protein": ["5g", ""],
+    "Vitamin": ["Vitamin A", "Vitamin C", "Calcium", "Iron"]
+  },
+  {
+    "type": "Dessert",
+    "name": "Carmel Apple Pie",
+    "description": "Are you a gooey and chewy kind of brownie lover, or more of a cake-like brownie person? I like FUDGY. And kind of gooey. And moist! That is these. And the red velvetty-ness makes them perfect for the holiday season!! ",
+    "pic": "ApplePie.jpg",
+    "ingridients": [
+      "Flour",
+      "Almond Milk",
+      "Apples",
+      "Coconut Sugar",
+      "Cinnamon",
+      "Caramel Topping"
+    ],
+    "Calories": ["416", "101"],
+    "Fat": [{ "TotalFat": ["11g", "17%"], "SaturatedFat": ["3.6g", "18%"] }],
+    "Cholesterol": ["0.1mg", "0%"],
+    "Sodium": ["325mg", "14%"],
+    "Potassium": ["213mg", "6%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["78g", "11%"],
+        "Fiber": ["78g", "26%"],
+        "Sugars": ["51g", ""]
+      }
+    ],
+    "Protein": ["3.7g", ""],
+    "Vitamin": ["Vitamin A", "Vitamin C", "Calcium", "Iron"]
+  },
+  {
+    "type": "Drink",
+    "name": "Cranberry Mojito Punch",
+    "description": "Refreshing drink with the goodness of lemons, cranberry juice, and mint.If you're in the mood for a fun summer drink, this mint mojito recipe is just what you need! It's refreshing and delicious.cranberry mojito adds a fun and festive touch.",
+    "pic": "canberry-mojito.png",
+    "ingridients": [
+      "Mint",
+      "Canberry Reduction",
+      "Lime Juice",
+      "Ice Cubes"
+    ],
+    "Calories": ["115", "3.94"],
+    "Fat": [{ "TotalFat": ["0.44g", "1%"], "SaturatedFat": ["0g", "0%"] }],
+    "Cholesterol": ["6.82mg", "2%"],
+    "Sodium": ["24.09mg", "1%"],
+    "Potassium": ["9.84mg", "0%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["1.05g", "0%"],
+        "Fiber": ["0.06g", "0%"],
+        "Sugars": ["0.15g", "1%"]
+      }
+    ],
+    "Protein": ["2.5g", "5%"],
+    "Vitamin": ["Vitamin C", "Calcium"]
+  },
+  {
+    "type": "Drink",
+    "name": "Vanilla Coffee",
+    "description": "When you can’t quite decide between a mojito and a glass of juice, this sweet sip offers the best of both worlds.",
+    "pic": "coffee.jpg",
+    "ingridients": [
+      "Water",
+      "Coffee",
+      "Soya Coffee Cream",
+      "Coconut Sugar",
+      "Vanilla extract"
+    ],
+    "Calories": ["607", "154"],
+    "Fat": [{ "TotalFat": ["17.16g", "26%"], "SaturatedFat": ["0g", "0%"] }],
+    "Cholesterol": ["60mg", "20%"],
+    "Sodium": ["4.54mg", "0%"],
+    "Potassium": ["213mg", "6%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["20.21g", "7%"],
+        "Fiber": ["0g", "0%"],
+        "Sugars": ["11.5g", "44%"]
+      }
+    ],
+    "Protein": ["100g", "201%"],
+    "Vitamin": ["Calcium", "Iron"]
+  },
+  {
+    "type": "Drink",
+    "name": "Tropical fruit juice",
+    "description": "Can’t swing a tropical vacay this year? No sweat! Bring the best of the tropics to your home by shaking up a fruit mojito that’s perfect anytime, anywhere.",
+    "pic": "juice.jpg",
+    "ingridients": [
+      "Orange",
+      "Stawberry",
+      "Mango",
+      "Kiwi",
+      "Ice Cubes",
+      "Sparkling Water"
+    ],
+    "Calories": ["146", "3.8"],
+    "Fat": [{ "TotalFat": [".43g", "1%"], "SaturatedFat": ["0g", "0%"] }],
+    "Cholesterol": ["0.1mg", "0%"],
+    "Sodium": ["9.8mg", "0%"],
+    "Potassium": ["524mg", "11%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["35.27g", "1%"],
+        "Fiber": ["3g", "13%"],
+        "Sugars": ["30.14g", "121%"]
+      }
+    ],
+    "Protein": ["3.7g", ""],
+    "Vitamin": ["Vitamin A", "Vitamin C"]
+  },
+  {
+    "type": "Drink",
+    "name": "Blood Orange Margarita",
+    "description": "When it comes to shaking up the perfect mojito, this simple yet superb combination of lime and orange will never let you down. What’s better than a mojito made with blood orange and lime? obviously.",
+    "pic": "orange-magarita.jpg",
+    "ingridients": [
+      "Blood orange juice",
+      "Lime Juice",
+      "blood orange wedge",
+      "triple sec",
+      "Water"
+    ],
+    "Calories": ["192", "0"],
+    "Fat": [{ "TotalFat": ["0g", "0%"], "SaturatedFat": ["0g", "0%"] }],
+    "Cholesterol": ["0mg", "0%"],
+    "Sodium": ["24.81mg", "1%"],
+    "Potassium": ["117.65mg", "3%"],
+    "Carbs": [
+      {
+        "TotalCarb": ["22g", "7%"],
+        "Fiber": ["0g", "0%"],
+        "Sugars": ["16g", "66%"]
+      }
+    ],
+    "Protein": ["0.5g", "1%"],
+    "Vitamin": ["Vitamin A", "Vitamin C"]
+  }
+]

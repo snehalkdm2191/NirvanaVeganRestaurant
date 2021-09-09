@@ -1,0 +1,16 @@
+.category-list{
+    margin-top: 25%;
+    width: 60%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 1% 0px 1%;
+    position: relative;
+}
+.category-food-img{
+    height:100px;
+    width:200px;
+}
+.category-row{
+    margin-top: 2%;
+}
