@@ -8,9 +8,6 @@ function Header({ section }) {
     case "category":
       headerSource = <source src={HomeBg} type="video/mp4" />;
       break;
-    case "product":
-      headerSource = <source src={HomeBg} type="video/mp4" />;
-      break;
     case "contact":
       headerSource = <source src={ContactBg} type="video/mp4" />;
       break;

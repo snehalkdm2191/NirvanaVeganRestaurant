@@ -27,7 +27,10 @@ function NavBar() {
         <li>
           <NavLink
             exact
-            to="/"
+            to={{
+              pathname: `/category/Dish`,
+              state: {name:"Dish"}
+            }}
             className="nav-link"
             activeClassName="active-link"
           >
@@ -37,7 +40,10 @@ function NavBar() {
         <li>
           <NavLink
             exact
-            to="/"
+            to={{
+              pathname: '/category/Dessert',
+              state: {name:"Dessert"}
+            }}
             className="nav-link"
             activeClassName="active-link"
           >
@@ -47,7 +53,10 @@ function NavBar() {
         <li>
           <NavLink
             exact
-            to="/"
+            to={{
+              pathname: '/category/Drink',
+              state: {name:"Drink"}
+            }}
             className="nav-link"
             activeClassName="active-link"
           >
