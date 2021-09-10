@@ -1,6 +1,6 @@
 import React from "react";
 import HomeBg from "../Assets/img/HomePage-bg.mp4";
-import DishBg from "../Assets/img/Dish.mp4";
+import DishBg from "../Assets/img/Dish.jpg";
 import DrinImg from "../Assets/img/drink.jpg";
 import DessertImg from "../Assets/img/Dessert.jpg";
 import ContactBg from "../Assets/img/contact-bg.mp4";
@@ -10,9 +10,7 @@ function Hero({ section }) {
   switch (section) {
     case "Dish":
       headerSource = (
-        <video width="100%" autoPlay playsInline loop muted>
-          <source width="100%" src={DishBg} type="video/mp4" />
-        </video>
+        <img width="100%" src={DishBg} alt="Dessert cover"/>
       );
       break;
     case "Dessert":
