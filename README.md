@@ -1,70 +1,84 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 1. Nirvana Vegan Restaurant Website
 
-In the project directory, you can run:
+Nirvana is a restaurant guide reviewing vegan & vegetarian friendly restaurants for breakfast, lunch & dinner in Stockholm. Our guide also makes it possible to filter restaurants on location, cuisine & level of sustainability. 
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 2. Setup
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+These are the instructions to run the project:
 
-### `npm test`
+1. Open the terminal and navigate to the folder where this readme file is located.
+1. Install the project dependencies by typing `npm install` on the terminal.
+1. Start the project by typing `npm start` on the terminal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 3. Usage instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The restaurant website which have multiple pages instead of being single landing page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 4. Dependencies
 
-### `npm run eject`
+Beside React JS and it's own dependencies, this project uses:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Recoil for global state management of the shopping list state.
+1. Firebase for hosting.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 5. Project organization
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 5.1 Requirement gathering
 
-## Learn More
+The document submited by the fictional company as the coding test. It is highlighted using color to differenciate the functional, non-functional requrirements among other key elements.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Google Docs link](https://docs.google.com/document/d/1AhSTq53QiHcI-8JBeHpCnoekU84wJ5a6vFcCUvoEDDM/edit)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 5.2 Project spreadsheet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+A spreadsheet with the information related to the organization of the project.
 
-### Analyzing the Bundle Size
+[Google Spreadsheets link](https://docs.google.com/spreadsheets/d/1fGzzyDQyyQMGIUt2maQr_CRCd_U22qA2DaOYLx9sQHw/edit)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### 5.3 User flows
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+A low detail diagram to visualize how the app will work.
 
-### Advanced Configuration
+The focus is to undertand what interactions like clicking buttons, filling forms, etc, in order to complete their objectives inside the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[Whinsical User Flow board](https://whimsical.com/userflow-MRXuNoTg39VAYi662MmTQe)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 5.4 Design mockup
 
-### `npm run build` fails to minify
+A low detail mockup to visualize how the app will look.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The focus is on colors, fonts, branding and the positions of each element on the screen.
+
+[Figma link](https://www.figma.com/file/3R7j44ocWBhmhga9aDN27O/VeganRestaurant?node-id=1%3A232)
+
+---
+
+### 5.5 Component tree
+
+The component tree allows to visualize the overall hierarchy of the project.
+
+The first diagram covers the overal application layout:
+[View latest version](https://whimsical.com/componenttree-9rDYbDZNYHxaAM2VGPerHZ)
+
+## 6. Atribbutions
+
+This project uses the following external art assets:
+
+- Restaurant logo: design on photoshop.
+- Icons: Font awesome 5.

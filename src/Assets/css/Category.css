@@ -1,16 +1,52 @@
-.category-list{
-    margin-top: 25%;
-    width: 60%;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 1% 0px 1%;
-    position: relative;
+#category-section {
+  width: 100%;
+  max-height: 400px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.category-food-img{
-    height:100px;
-    width:200px;
+.category-list {
+  margin-top: 10%;
+  width: 60%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 1% 30px 1%;
+  position: relative;
 }
-.category-row{
-    margin-top: 2%;
+.category-text h4{
+  font-family: 'Lobster', cursive;
+  color:#9a031e;
+}
+.category-list h2{
+  text-align: center;
+  margin-bottom: 4%;
+  font-family: 'Lobster', cursive;
+  color:#023047;
+}
+.category-food-img {
+  height: 100px;
+  width: 200px;
+}
+.category-row {
+  margin-top: 2%;
+}
+@media (max-width: 1100px) {
+  #category-section {
+    margin-top: 12%;
+  }
+  .category-list{
+    margin-top: 4%;
+  }
+}
+@media (min-width: 1450px) {
+  #category-section {
+    margin-top: 12%;
+  }
+  .category-list{
+    margin-top: 16%;
+  }
+  .category-food-img {
+    float: right;
+  }
 }

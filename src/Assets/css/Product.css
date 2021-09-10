@@ -10,16 +10,50 @@
   height: 400px;
   margin-top: 6%;
 }
+.product-details-section h2{
+  margin-top: 10%;
+  text-align: center;
+  position: relative;
+  font-family: 'Lobster', cursive;
+  color:#023047;
+}
+.product-details-section p{
+  width:40%;
+  margin-left:30%;
+}
+.product-details-section h6{
+  width:40%;
+  margin-left:45%;
+}
+.product-details-section h4{
+  width:40%;
+  margin-left:43%;
+}
+.back-button{
+  height:50px;
+  background-color: #9a031e;
+  color:#fff;
+  margin-left: 42%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.back-button:hover{
+  background-color: #fff;
+  color:#9a031e;
+}
+
 
 /* Nutrition table css */
 #nutritionfacts { 
   background-color:white; 
   border:1px solid black; 
   padding:3px; 
-  width:250px; 
-  margin-top: 8%;
-  margin-left: 40%;
+  width:350px; 
+  margin-top: 4%;
   margin-bottom: 2%;
+}
+#nutritionfacts table{
+  width:100%;
 }
 #nutritionfacts td { 
   color:black; 
@@ -73,4 +107,10 @@
 .nutri-para{
   font-family:'Arial Black','Helvetica Bold',sans-serif; 
   font-size:6pt; 
+}
+
+@media (max-width: 1100px) {
+  #product-section {
+    margin-top: 8%;
+  }
 }

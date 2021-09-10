@@ -1,17 +1,23 @@
 import React from "react";
+import imglinkedin from "../Assets/img/linkedin.png";
+import imgFB from "../Assets/img/facebook.png";
+import imgTwitter from "../Assets/img/twitter.png";
 
 function Footer() {
   return (
     <div id="Footer">
       <p>
-        <a className="footer-links" href="https://www.linkedin.com/in/snehal-kadam-alsundkar-45601016b/">
-          <i class="fab fa-linkedin"></i>
+        <a
+          className="footer-links"
+          href="https://www.linkedin.com/in/snehal-kadam-alsundkar-45601016b/"
+        >
+          <img src={imglinkedin} alt="contact linkedin" />
         </a>
         <a className="footer-links" href="https://github.com/snehalkdm2191/">
-          <i class="fab fa-gitlab"></i>
+          <img src={imgFB} alt="contact linkedin" />
         </a>
         <a className="footer-links" href="https://gitlab.com/snehalkdm2191">
-          <i class="fab fa-github"></i>
+          <img src={imgTwitter} alt="contact linkedin" />
         </a>
         <br />
         <span className="copyright-text">© 2021 • Snehal Kadam</span>

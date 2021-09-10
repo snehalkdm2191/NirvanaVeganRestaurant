@@ -2,7 +2,7 @@ import React,{useEffect} from "react";
 import { useRecoilState } from "recoil";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './Assets/css/App.css';
-import NavBar from './Components/NavBar';
+import NavBar from "./Components/NavBar";
 import Home from './Sections/Home';
 import Product from './Sections/Product';
 import Category from './Sections/Category';

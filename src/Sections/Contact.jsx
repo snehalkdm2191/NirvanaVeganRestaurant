@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../Components/Header";
+import Hero from "../Components/Hero";
 import ContactInfo from "../Components/ContactInfo";
 
 function Contact() {
   return (
     <div>
       <div id="Contact-section">
-        <Header section="contact"/>
+        <Hero section="contact"/>
       </div>
         <ContactInfo/>
         

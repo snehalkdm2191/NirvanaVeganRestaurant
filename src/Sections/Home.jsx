@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../Components/Header";
+import Hero from "../Components/Hero";
 import HomeCategories from "../Components/HomeCategories";
 
 function Home() {
   return (
     <div>
       <div id="Home-section">
-        <Header section="Home" />
+        <Hero section="Home" />
       </div>
         <HomeCategories/>
     </div>

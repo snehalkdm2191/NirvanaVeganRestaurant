@@ -5,13 +5,13 @@ function NutritionTable({ NutriDetails }) {
   return (
     <div id="nutritionfacts">
       {NutriDetails.map((nutri) => (
-        <table width="242" cellspacing="0" cellpadding="0">
+        <table cellspacing="0" cellpadding="0">
           <tbody>
-            <th>
+            <tr>
               <td align="center" class="header">
                 Nutrition Facts
               </td>
-            </th>
+            </tr>
             <tr>
               <td>
                 <div class="serving">

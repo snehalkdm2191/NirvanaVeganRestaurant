@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { useRecoilState } from "recoil";
 import { foodListState } from "../State/FoodListState";
 import NutritionTable from "../Components/NutritionTable";
+import ProductDetails from "../Components/ProductDetails";
 
 function Product() {
   const { state } = useLocation();
@@ -20,8 +21,10 @@ function Product() {
           />
         ))}
       </div>
-      
-      <NutritionTable NutriDetails={NutriDetails} />
+      <div className="row d-flex justify-content-center">
+        <ProductDetails productData={NutriDetails} />
+        <NutritionTable NutriDetails={NutriDetails} />
+      </div>
     </div>
   );
 }
