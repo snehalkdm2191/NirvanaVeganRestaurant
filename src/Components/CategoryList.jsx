@@ -33,6 +33,14 @@ export default function CategoryList({ FoodDetails }) {
              <h4>{foodList.name}</h4>
             </Link>
             <p>{foodList.description}</p>
+            <Link className="btn btn-view"
+              to={{
+                pathname: `/product/${foodList.name}`,
+                state: { name: foodList.name },
+              }}
+            >
+             View
+            </Link>
           </div>
         </div>
       ))}
