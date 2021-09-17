@@ -1,8 +1,8 @@
 import React from "react";
-import Hero from "../Components/Hero";
-import HomeCategories from "../Components/HomeCategories";
+import Hero from "../components/Hero";
+import HomeCategories from "../components/HomeCategories";
 
-function Home() {
+export default function Home() {
   return (
     <div>
       <div id="Home-section">
@@ -12,5 +12,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

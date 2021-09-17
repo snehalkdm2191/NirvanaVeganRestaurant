@@ -1,17 +1,17 @@
 import React,{useEffect} from "react";
 import { useRecoilState } from "recoil";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import './Assets/css/App.css';
-import NavBar from "./Components/NavBar";
-import Home from './Sections/Home';
-import Product from './Sections/Product';
-import Category from './Sections/Category';
-import Contact from './Sections/Contact';
-import Footer from './Components/Footer';
-import FoodListFile from "./Files/VeganFood.json";
-import { foodListState } from "./State/FoodListState";
+import './assets/css/App.css';
+import NavBar from "./components/NavBar";
+import Home from './sections/Home';
+import Product from './sections/Product';
+import Category from './sections/Category';
+import Contact from './sections/Contact';
+import Footer from './components/Footer';
+import FoodListFile from "./data/VeganFood.json";
+import { foodListState } from "./state/FoodListState";
 
-function App() {
+export default function App() {
     // Global state
     const [foodList, setFoodList] = useRecoilState(foodListState);
 
@@ -47,5 +47,3 @@ function App() {
 
   );
 }
-
-export default App;

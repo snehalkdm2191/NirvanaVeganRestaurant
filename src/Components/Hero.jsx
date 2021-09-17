@@ -1,45 +1,22 @@
 import React from "react";
-import HomeBg from "../Assets/img/HomePage-bg.mp4";
-import DishBg from "../Assets/img/Dish.jpg";
-import DrinImg from "../Assets/img/drink.jpg";
-import DessertImg from "../Assets/img/Dessert.jpg";
-import ContactBg from "../Assets/img/contact-bg.mp4";
+import HomeBg from "../assets/video/HomePage-bg.mp4";
+import DishBg from "../assets/video/dish.mp4";
+import DrinkBg from "../assets/video/drink.mp4";
+import DessertBg from "../assets/video/dessert.mp4";
+import ContactBg from "../assets/video/contact-bg.mp4";
+import VideoPlayer from "./VideoPlayer";
 
-function Hero({ section }) {
-  let headerSource;
+export default function Hero({ section }) {
   switch (section) {
     case "Dish":
-      headerSource = (
-        <img width="100%" src={DishBg} alt="Dessert cover"/>
-      );
-      break;
+      return <VideoPlayer key="Dish" vidLink={DishBg}/>;
     case "Dessert":
-      headerSource = (
-        <img width="100%" src={DessertImg} alt="Dessert cover"/>
-      );
-      break;
+      return <VideoPlayer key="Dessert" vidLink={DessertBg}/>;
     case "Drink":
-      headerSource = <img width="100%" src={DrinImg} alt="Dessert cover"/>;
-      break;
+      return <VideoPlayer key="Drink" vidLink={DrinkBg}/>;
     case "contact":
-      headerSource = (
-        <video width="100%" autoPlay playsInline loop muted>
-          <source src={ContactBg} type="video/mp4" />
-        </video>
-      );
-      break;
+      return <VideoPlayer key="contact" vidLink={ContactBg}/>;
     default:
-      headerSource = (
-        <video width="100%" autoPlay playsInline loop muted>
-          <source src={HomeBg} type="video/mp4" />
-        </video>
-      );
+      return <VideoPlayer key="Home" vidLink={HomeBg}/>;
   }
-  return (
-    <div>
-      {headerSource}
-    </div>
-  );
 }
-
-export default Hero;

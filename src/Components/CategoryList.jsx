@@ -1,7 +1,7 @@
-import React,{useEffect} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-function CategoryList({ FoodDetails }) {
+export default function CategoryList({ FoodDetails }) {
   return (
     <div className="category-list container">
       <h2>Super Delicious Menu</h2>
@@ -17,7 +17,7 @@ function CategoryList({ FoodDetails }) {
             >
             <img
               className="category-food-img"
-              src={require(`../Assets/img/${foodList.pic}`).default}
+              src={require(`../assets/img/${foodList.pic}`).default}
               alt={foodList.name}
             />
             </Link>
@@ -39,5 +39,3 @@ function CategoryList({ FoodDetails }) {
     </div>
   );
 }
-
-export default CategoryList;

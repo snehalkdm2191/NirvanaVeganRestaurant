@@ -4,7 +4,7 @@ import CarbsRow from "./CarbsRow";
 import FatRow from "./FatRow";
 import CaloriesRow from "./CaloriesRow";
 
-function NutritionTableBody({ data }) {
+export default function NutritionTableBody({ data }) {
   return (
     <>
       <tr>
@@ -57,5 +57,3 @@ function NutritionTableBody({ data }) {
     </>
   );
 }
-
-export default NutritionTableBody;

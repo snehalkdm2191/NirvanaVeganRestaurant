@@ -10,20 +10,34 @@
   height: 400px;
   margin-top: 6%;
 }
-.product-details-section h2{
+.product-details-section{
   margin-top: 10%;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 1% 30px 1%;
+    position: relative;
+}
+.product-details-section h2{
   text-align: center;
   position: relative;
   font-family: 'Lobster', cursive;
   color:#023047;
 }
-.product-details-section p{
+.ingridient-section h6{
   width:40%;
-  margin-left:30%;
+  margin-left: 5px;
 }
-.product-details-section h6{
-  width:40%;
-  margin-left:45%;
+.ingridient-section img{
+  height: 30px;
+}
+.ingridient-section{
+    padding: 5px 0% 60px 45%;
+    position: relative;
+}
+.ingridient-list{
+  display: flex;
+  margin-bottom: 5px;
 }
 .product-details-section h4{
   width:40%;
@@ -33,13 +47,14 @@
   height:50px;
   background-color: #9a031e;
   color:#fff;
-  margin-left: 42%;
+  margin-left: 45%;
+  margin-bottom: 50px;
   font-size: 18px;
   font-weight: 700;
 }
 .back-button:hover{
-  background-color: #fff;
-  color:#9a031e;
+  background-color: #666;
+  color:#fff;
 }
 
 
@@ -49,7 +64,6 @@
   border:1px solid black; 
   padding:3px; 
   width:350px; 
-  margin-top: 4%;
   margin-bottom: 2%;
 }
 #nutritionfacts table{
