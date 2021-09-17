@@ -31,6 +31,17 @@
 .category-row {
   margin-top: 2%;
 }
+.btn-view {
+  margin-top: 1%;
+  width: 30%;
+  background-color: #335c67;
+  color: #fff;
+  font-weight: 600;
+}
+.btn-view:hover {
+  background-color: #fff;
+  border-color: #335c67;
+}
 @media (max-width: 760px) {
   #category-section {
     margin-top: 12%;
