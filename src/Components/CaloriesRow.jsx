@@ -1,6 +1,6 @@
 import React from "react";
 
-function CaloriesRow({ calData }) {
+export default function CaloriesRow({ calData }) {
   return (
     <>
       <tr>
@@ -24,5 +24,3 @@ function CaloriesRow({ calData }) {
     </>
   );
 }
-
-export default CaloriesRow;

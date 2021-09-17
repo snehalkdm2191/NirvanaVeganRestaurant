@@ -1,17 +1,14 @@
 import React from "react";
-import Hero from "../Components/Hero";
-import ContactInfo from "../Components/ContactInfo";
+import Hero from "../components/Hero";
+import ContactInfo from "../components/ContactInfo";
 
-function Contact() {
+export default function Contact() {
   return (
     <div>
       <div id="Contact-section">
         <Hero section="contact"/>
       </div>
-        <ContactInfo/>
-        
+        <ContactInfo/>    
     </div>
   );
 }
-
-export default Contact;

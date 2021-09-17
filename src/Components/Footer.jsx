@@ -1,9 +1,9 @@
 import React from "react";
-import imglinkedin from "../Assets/img/linkedin.png";
-import imgFB from "../Assets/img/facebook.png";
-import imgTwitter from "../Assets/img/twitter.png";
+import imglinkedin from "../assets/img/linkedin.png";
+import imgFB from "../assets/img/facebook.png";
+import imgTwitter from "../assets/img/twitter.png";
 
-function Footer() {
+export default function Footer() {
   return (
     <div id="Footer">
       <p>
@@ -25,4 +25,3 @@ function Footer() {
     </div>
   );
 }
-export default Footer;

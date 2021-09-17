@@ -1,6 +1,6 @@
 import React from "react";
 
-function FatRow({ fatData }) {
+export default function FatRow({ fatData }) {
   return (
     <>
       {fatData.map((fat) => (
@@ -42,5 +42,3 @@ function FatRow({ fatData }) {
     </>
   );
 }
-
-export default FatRow;

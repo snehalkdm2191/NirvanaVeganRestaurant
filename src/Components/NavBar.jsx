@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from '../Assets/img/logo.png'
+import logo from '../assets/img/logo.png'
 
-function NavBar() {
+export default function NavBar() {
   const [nav, setNav] = useState(false);
 
   const changeBackground = () => {
@@ -77,5 +77,3 @@ function NavBar() {
     </nav>
   );
 }
-
-export default NavBar;

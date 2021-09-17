@@ -1,9 +1,9 @@
 import React from "react";
 import { useLocation} from "react-router-dom";
 import { useRecoilState } from "recoil";
-import { foodListState } from "../State/FoodListState";
-import Hero from "../Components/Hero";
-import CategoryList from "../Components/CategoryList";
+import { foodListState } from "../state/FoodListState";
+import Hero from "../components/Hero";
+import CategoryList from "../components/CategoryList";
 
 function Category() {
   const { state } = useLocation();

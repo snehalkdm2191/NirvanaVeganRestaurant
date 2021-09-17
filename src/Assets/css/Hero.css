@@ -51,8 +51,9 @@ body {
     transition: all ease 0.2s;
   }
   .active-link{
-    background-color: #343a40 !important;
-    color:#fff !important;
+    background-color: #fff !important;
+    color:#9a031e !important;
+    opacity: 0.5;
   }
   nav ul li .nav-link {
     font-family: 'Work Sans', sans-serif;
@@ -63,15 +64,13 @@ body {
     display: flex;
     font-size: 20px;
     font-weight:bolder;
-    background-color: #d3d3d3;
     color: #495057;
     letter-spacing: 1px;
     border-radius: 3px;
     transition: 0.2s ease-in-out;
   }
   nav ul li .nav-link:hover {
-    background-color: #343a40;
-    color: #fff;
+    color: #666;
     box-shadow: 5px 10px 30px rgba(50, 51, 51, 0.336);
     transition: all ease 0.2s;
   }

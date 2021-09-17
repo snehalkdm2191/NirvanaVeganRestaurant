@@ -1,6 +1,6 @@
 import React from "react";
 
-function VitaminRow({ vitaminData }) {
+export default function VitaminRow({ vitaminData }) {
   return (
     <>
       <tr style={{ height: "1px" }}>
@@ -18,5 +18,3 @@ function VitaminRow({ vitaminData }) {
     </>
   );
 }
-
-export default VitaminRow;

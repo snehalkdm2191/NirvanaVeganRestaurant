@@ -1,7 +1,7 @@
 import React from "react";
-import NutritionTableBody from "../Components/NutritionTableBody";
+import NutritionTableBody from "./NutritionTableBody";
 
-function NutritionTable({ NutriDetails }) {
+export default function NutritionTable({ NutriDetails }) {
   return (
     <div id="nutritionfacts">
       {NutriDetails.map((nutri) => (
@@ -38,5 +38,3 @@ function NutritionTable({ NutriDetails }) {
     </div>
   );
 }
-
-export default NutritionTable;
